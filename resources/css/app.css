@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E0FFFF;
+    font-family: Arial, sans-serif;
+}
+
+#form-container {
+    background-color: #DCDCDC;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    margin-bottom: -12px;
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px); 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+select {
+    width: calc(100%); 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: calc(100%);
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6495ED; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4169E1; 
+    font-size: 16px;
+}
+
+small {
+    color: #666;
+}
